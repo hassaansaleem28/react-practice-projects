@@ -1,0 +1,73 @@
+/* -------------------------------------PROJECT NO.1----------------------------------- */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.accordion {
+  border-bottom: 10px solid black;
+  width: 700px;
+  margin: 100px auto;
+}
+.akela {
+  display: grid;
+  cursor: pointer;
+  border-radius: 8px;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: rgb(234, 234, 234);
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+  grid-template-columns: auto 1fr auto;
+}
+.heading {
+  padding-right: 75px;
+}
+.akela:hover {
+  background-color: rgb(242, 242, 242);
+}
+.akela:hover .number {
+  color: rgb(2, 2, 2);
+}
+.icon {
+  font-size: 26px;
+}
+.number {
+  font-size: 22px;
+  font-family: "Lucida Sans";
+  color: rgb(152, 151, 151);
+}
+.text {
+  grid-column: 2 / -1;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 0.75px;
+  /* display: none; */
+}
+.textOpen {
+  padding: 1.3rem 1rem;
+}
+.open {
+  border-top: 6px solid black;
+}
+.colored {
+  color: black;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-bottom: 100px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.btn:active {
+  transform: translateY(-4px);
+}
+
+/* -------------------------------------PROJECT NO.2----------------------------------- */
